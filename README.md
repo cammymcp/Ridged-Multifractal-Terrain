@@ -6,12 +6,21 @@ The tessellation factor is set dynamically based on patch distance from the came
 
 For efficiency, the application performs CPU-side frustum culling to only render visible geometry. The effects of which can be seen in the Test Screens folder: frame times dropping by over 100%. There is also a feature to dynamically adjust the near and far tessellation values to reach a target frame rate.
 
-This repository should contain everything you need to compile and run this program from Visual Studio, and it should work out of the box. If this isn't the case let me know and I can make some changes. You can see a video of it running here: https://www.youtube.com/watch?v=Ejc-A_pi4VA
+This repository contains everything you need to compile and run this program from Visual Studio. If you wish to do so, follow the steps below:
 
-For those who are really interested, there is a PDF technical report included in the repository that was submitted alongside this application as part of my degree course. 
+- Download repository as a .zip file and extract.
+- Open Visual Studio solution file
+- Right click on the 'DXFramework' project and Build.
+- Right click on the 'E01_MultifractalTerrain' project and select as Startup Project
+- Run in Debug for Win32. 
 
 Controls:
 
 WASD - Move Camera
 Arrows - Rotate Camera
 Esc - Close application
+
+If you can't get the program running let me know and I can make some changes. Alternatively, you can find a video of it running here: https://www.youtube.com/watch?v=Ejc-A_pi4VA
+
+For those who are really interested, there is a PDF technical report included in the repository that was submitted alongside this application as part of my degree course. 
+
