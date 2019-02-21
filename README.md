@@ -16,9 +16,9 @@ This repository contains everything you need to compile and run this program fro
 
 Controls:
 
-WASD - Move Camera
-Arrows - Rotate Camera
-Esc - Close application
+-WASD - Move Camera
+-Arrows - Rotate Camera
+-Esc - Close application
 
 If you can't get the program running let me know and I can make some changes. Alternatively, you can find a video of it running here: https://www.youtube.com/watch?v=Ejc-A_pi4VA
 
